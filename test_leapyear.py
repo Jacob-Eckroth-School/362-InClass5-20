@@ -20,5 +20,8 @@ class TestCase(unittest.TestCase):
     def test_divis_by_4(self):
         self.assertEqual(leapyear.isLeapYear(20),True)
     def test_divis_by_3(self):
-        self.asserTEqual(leapyear.isLeapYear(9),False)
+        self.assertEqual(leapyear.isLeapYear(9),False)
 
+
+if __name__ == "__main__":
+    unittest.main()
